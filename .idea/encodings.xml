@@ -3,10 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Eureka-Server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringCould" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringCould-02" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringCould-02/src/main/resources/application.yml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Server-Provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Server-Provider/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/SpringCould-03" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/kkk" charset="UTF-8" />
   </component>
 </project>
