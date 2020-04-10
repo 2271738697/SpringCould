@@ -1,0 +1,19 @@
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: root
+    password: 123456
+
+#设置获取Server-Provider服务的负载均衡算法从轮询改为随机
+Server-Provider:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+#开启重试机制，即获取服务失败是否从另外一个节点重试，默认值为false：
+spring:
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: true

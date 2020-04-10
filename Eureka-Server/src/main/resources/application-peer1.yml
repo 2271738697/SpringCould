@@ -1,0 +1,17 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: Eureka-Server
+
+eureka:
+  instance:
+    hostname: peer1 #指定地址为peer1
+  client:
+    service-url: #指定服务端地址为另一个服务端地址
+      defaultZone: http://root:123456@peer2:8092/eureka/,http://root:123456@peer1:8091/eureka/
+  server:
+    enable-self-preservation: false
+  #  cd Eureka-Server/target
+# java -jar demo-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer1
+  #// peer2
